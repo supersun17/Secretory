@@ -1,0 +1,44 @@
+{
+	"results": [
+		{
+			"vote_count": 4173,
+			"id": 299537,
+			"video": false,
+			"vote_average": 7.1,
+			"title": "Captain Marvel",
+			"popularity": 360.189,
+			"poster_path": "/AtsgWhDnHTq68L0lLsUrCnM7TjG.jpg",
+			"original_language": "en",
+			"original_title": "Captain Marvel",
+			"genre_ids": [
+				28,
+				12,
+				878
+			],
+			"backdrop_path": "/w2PMyoyLU22YvrGK3smVM9fW1jj.jpg",
+			"adult": false,
+			"overview": "The story follows Carol Danvers as she becomes one of the universe’s most powerful heroes when Earth is caught in the middle of a galactic war between two alien races. Set in the 1990s, Captain Marvel is an all-new adventure from a previously unseen period in the history of the Marvel Cinematic Universe.",
+			"release_date": "2019-03-06"
+		},
+		{
+			"vote_count": 242,
+			"id": 456740,
+			"video": false,
+			"vote_average": 5.2,
+			"title": "Hellboy",
+			"popularity": 267.105,
+			"poster_path": "/bk8LyaMqUtaQ9hUShuvFznQYQKR.jpg",
+			"original_language": "en",
+			"original_title": "Hellboy",
+			"genre_ids": [
+				28,
+				12,
+				14
+			],
+			"backdrop_path": "/5BkSkNtfrnTuKOtTaZhl8avn4wU.jpg",
+			"adult": false,
+			"overview": "Hellboy comes to England, where he must defeat Nimue, Merlin's consort and the Blood Queen. But their battle will bring about the end of the world, a fate he desperately tries to turn away.",
+			"release_date": "2019-04-10"
+		}
+	]
+}
