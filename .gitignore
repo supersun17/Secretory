@@ -1,3 +1,4 @@
 .DS_Store
 *.xcuserstate
 Pods
+com.MingSun.Secretory/Utilities/Credentials.swift
