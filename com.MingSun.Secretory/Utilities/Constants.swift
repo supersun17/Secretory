@@ -23,10 +23,15 @@ enum Endpoint {
 	}
 	enum TMDB: String {
 		case Base = "https://api.themoviedb.org/3"
+		case Image = "https://image.tmdb.org/t/p/w500"
 		case NowPlaying = "/movie/now_playing"
 
 		var url: URL? {
 			return URL.init(string: Endpoint.TMDB.Base.rawValue + self.rawValue)
+		}
+
+		func generatePostURL(with posterPath: String) -> URL? {
+			return URL.init(string: self.rawValue + posterPath)
 		}
 	}
 }

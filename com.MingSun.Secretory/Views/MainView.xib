@@ -36,9 +36,6 @@
                     <state key="normal" title="Track">
                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </state>
-                    <connections>
-                        <action selector="track:" destination="-1" eventType="touchUpInside" id="8yr-5b-WNW"/>
-                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aMs-A5-kHu" customClass="CreateButton" customModule="com_MingSun_Secretory" customModuleProvider="target">
                     <rect key="frame" x="290" y="602" width="60" height="40"/>
@@ -51,9 +48,6 @@
                     <state key="normal" title="Create">
                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </state>
-                    <connections>
-                        <action selector="create:" destination="-1" eventType="touchUpInside" id="wax-5g-WmM"/>
-                    </connections>
                 </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

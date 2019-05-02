@@ -1,5 +1,5 @@
 # Secretory EPIC 1
-Use Secretory to browse on going movies in AMC
+Use Secretory to browse on going movies
 
 ## Stories:
 Sticker will show movie poster, with next available show time  
@@ -17,3 +17,6 @@ Sticker rendering poster
 Sticker delegate design  
 Sticker reuse mechanism  
 QA  
+Sticker can be swipe to side
+Sticker can be expamd to full screen by tapping
+Expanding animation should be like a enlarging square
