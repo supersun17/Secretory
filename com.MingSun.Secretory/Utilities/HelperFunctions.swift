@@ -44,3 +44,4 @@ class ArrayToListTransform<T: RealmCollectionValue>: TransformType {
 		}
 	}
 }
+

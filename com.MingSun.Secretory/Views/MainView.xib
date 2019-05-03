@@ -25,39 +25,11 @@
                     <rect key="frame" x="0.0" y="20" width="375" height="567"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 </view>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jQE-wj-MpR" customClass="TrackButton" customModule="com_MingSun_Secretory" customModuleProvider="target">
-                    <rect key="frame" x="25" y="602" width="60" height="40"/>
-                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="40" id="Get-Fq-ass"/>
-                        <constraint firstAttribute="width" constant="60" id="bmR-6p-ZMg"/>
-                    </constraints>
-                    <inset key="titleEdgeInsets" minX="5" minY="5" maxX="5" maxY="5"/>
-                    <state key="normal" title="Track">
-                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </state>
-                </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aMs-A5-kHu" customClass="CreateButton" customModule="com_MingSun_Secretory" customModuleProvider="target">
-                    <rect key="frame" x="290" y="602" width="60" height="40"/>
-                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="60" id="3zD-fN-HAv"/>
-                        <constraint firstAttribute="height" constant="40" id="yM9-mb-eAh"/>
-                    </constraints>
-                    <inset key="titleEdgeInsets" minX="5" minY="5" maxX="5" maxY="5"/>
-                    <state key="normal" title="Create">
-                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </state>
-                </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
                 <constraint firstItem="hPF-oC-TNL" firstAttribute="leading" secondItem="527-2C-jX3" secondAttribute="leading" id="Bro-WJ-Ujb"/>
-                <constraint firstItem="527-2C-jX3" firstAttribute="trailing" secondItem="aMs-A5-kHu" secondAttribute="trailing" constant="25" id="CKX-W4-r2D"/>
-                <constraint firstItem="jQE-wj-MpR" firstAttribute="top" secondItem="hPF-oC-TNL" secondAttribute="bottom" constant="15" id="IhW-oQ-Kan"/>
                 <constraint firstItem="527-2C-jX3" firstAttribute="trailing" secondItem="hPF-oC-TNL" secondAttribute="trailing" id="NTN-qe-gva"/>
-                <constraint firstItem="aMs-A5-kHu" firstAttribute="top" secondItem="hPF-oC-TNL" secondAttribute="bottom" constant="15" id="UEe-LK-Ikw"/>
-                <constraint firstItem="jQE-wj-MpR" firstAttribute="leading" secondItem="527-2C-jX3" secondAttribute="leading" constant="25" id="VRl-N7-0OZ"/>
                 <constraint firstItem="527-2C-jX3" firstAttribute="top" secondItem="hPF-oC-TNL" secondAttribute="top" id="jbv-TN-dVM"/>
                 <constraint firstItem="527-2C-jX3" firstAttribute="bottom" secondItem="hPF-oC-TNL" secondAttribute="bottom" constant="80" id="rYy-2l-rfa"/>
             </constraints>

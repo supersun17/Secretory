@@ -42,7 +42,7 @@ class TransformView: UIView {
 		if !transform.isIdentity {
 			transform = CGAffineTransform.identity
 		}
-		if layer.anchorPoint != CGPoint.init(x: 0, y: 0) {
+		if layer.anchorPoint != CGPoint.init(x: 0.5, y: 0.5) {
 			moveAnchorPointToCenter()
 		}
 	}
@@ -50,12 +50,12 @@ class TransformView: UIView {
 	/**
 	Swing, anchor at view's top left
 	- Parameters:
-		degree: ranging from 0 - 100, will be scaled into 0 - 2pi
+		degree: ranging from 0.00 - 1.00, will be scaled into 0 - 2pi
 	- Returns: void
 	**/
-	func swing(_ degree: Int) {
+	func swing(_ degree: CGFloat) {
 		moveAnchorPointToTopLeft()
-		let rotation = -CGFloat(0.01 * Double(degree) * Double.pi)
+		let rotation = -CGFloat(degree * CGFloat.pi)
 		let rotTransform = CGAffineTransform.init(rotationAngle: rotation)
 		if transform.isIdentity {
 			transform = rotTransform
@@ -80,22 +80,22 @@ class TransformView: UIView {
 	/**
 	Swing, anchor at view's top left
 	- Parameters:
-		degree: ranging from 0 - 100, will be scaled into 0 - 1.0
+		degree: ranging from 0.00 - 1.00, will be scaled into 0 - 1.0
 	- Returns: void
 	**/
-	func scale(_ degree: Int) {
-		let sclTransform = CGAffineTransform.init(scaleX: CGFloat(1.0 - 0.01 * Double(degree)),
-												  y: CGFloat(1.00 - 0.01 * Double(degree)))
+	func scale(_ degree: CGFloat) {
+		let sclTransform = CGAffineTransform.init(scaleX: CGFloat(1.0 - degree),
+												  y: CGFloat(1.00 - degree))
 		transform = sclTransform
 	}
 
-	private func moveAnchorPointToTopLeft() {
+	func moveAnchorPointToTopLeft() {
 		let origin = frame.origin
 		layer.anchorPoint = CGPoint.init(x: 0, y: 0)
 		layer.position = origin
 	}
 
-	private func moveAnchorPointToCenter() {
+	func moveAnchorPointToCenter() {
 		let center = CGPoint.init(x: (frame.minX + frame.maxX) / 2,
 								  y: (frame.minY + frame.maxY) / 2)
 		layer.anchorPoint = CGPoint.init(x: 0.5, y: 0.5)

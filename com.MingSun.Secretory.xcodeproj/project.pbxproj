@@ -14,19 +14,11 @@
 		3A357A4E224A80F60099EE51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A357A4D224A80F60099EE51 /* Assets.xcassets */; };
 		3A357A51224A80F60099EE51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A357A4F224A80F60099EE51 /* LaunchScreen.storyboard */; };
 		3A357A6C224C1DA60099EE51 /* Sticker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A357A6B224C1DA60099EE51 /* Sticker.swift */; };
-		3A357A70224C1E5D0099EE51 /* TrackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A357A6F224C1E5D0099EE51 /* TrackButton.swift */; };
-		3A357A72224C1E690099EE51 /* CreateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A357A71224C1E690099EE51 /* CreateButton.swift */; };
-		3A357A74224C1E780099EE51 /* TaskTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A357A73224C1E780099EE51 /* TaskTable.swift */; };
-		3A357A76224C1E8E0099EE51 /* CurrentTimeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A357A75224C1E8E0099EE51 /* CurrentTimeLabel.swift */; };
-		3A357A78224C1E9F0099EE51 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A357A77224C1E9F0099EE51 /* TaskCell.swift */; };
-		3A357A7A224C1EDC0099EE51 /* CurrentTimeLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A357A79224C1EDC0099EE51 /* CurrentTimeLine.swift */; };
-		3A357A7C224C1F050099EE51 /* CurrentTimeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A357A7B224C1F050099EE51 /* CurrentTimeCoordinator.swift */; };
 		3A357A82224C1F900099EE51 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A357A81224C1F900099EE51 /* MainVC.swift */; };
 		3A357A86224C23FB0099EE51 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A357A85224C23FB0099EE51 /* MainView.xib */; };
 		3A357A8A224D9A3C0099EE51 /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A357A89224D9A3C0099EE51 /* HelperFunctions.swift */; };
 		3A357A8E224DB48E0099EE51 /* StickersStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A357A8D224DB48E0099EE51 /* StickersStack.swift */; };
 		3A357A92224EF1080099EE51 /* TransformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A357A91224EF1080099EE51 /* TransformView.swift */; };
-		3A357A94224EF9200099EE51 /* GestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A357A93224EF9200099EE51 /* GestureView.swift */; };
 		3A357A96224EFADE0099EE51 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A357A95224EFADE0099EE51 /* Constants.swift */; };
 		3A5605482273934900230AFB /* TMDBServiceHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5605472273934900230AFB /* TMDBServiceHandler.swift */; };
 		3A56054A227393BE00230AFB /* TMDBServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A560549227393BE00230AFB /* TMDBServiceTest.swift */; };
@@ -37,6 +29,7 @@
 		3A560556227506FB00230AFB /* RealmManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A560555227506FB00230AFB /* RealmManagerTest.swift */; };
 		3A5605582275073D00230AFB /* TMDBMovieSample.json in Resources */ = {isa = PBXBuildFile; fileRef = 3A5605572275073D00230AFB /* TMDBMovieSample.json */; };
 		3AD5D44E227AADEC0045ABD5 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD5D44D227AADEC0045ABD5 /* Credentials.swift */; };
+		3AD5D450227BF37C0045ABD5 /* AnimationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD5D44F227BF37C0045ABD5 /* AnimationHelper.swift */; };
 		3AE209AD227A51E900940B8B /* ElementsPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE209AC227A51E900940B8B /* ElementsPool.swift */; };
 		3AE209AF227A700E00940B8B /* MovieContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE209AE227A700E00940B8B /* MovieContentView.swift */; };
 		3AE209B1227A702700940B8B /* MovieContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AE209B0227A702700940B8B /* MovieContentView.xib */; };
@@ -68,19 +61,11 @@
 		3A357A57224A80F60099EE51 /* com.MingSun.SecretoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = com.MingSun.SecretoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A357A5D224A80F60099EE51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A357A6B224C1DA60099EE51 /* Sticker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sticker.swift; sourceTree = "<group>"; };
-		3A357A6F224C1E5D0099EE51 /* TrackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackButton.swift; sourceTree = "<group>"; };
-		3A357A71224C1E690099EE51 /* CreateButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateButton.swift; sourceTree = "<group>"; };
-		3A357A73224C1E780099EE51 /* TaskTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTable.swift; sourceTree = "<group>"; };
-		3A357A75224C1E8E0099EE51 /* CurrentTimeLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentTimeLabel.swift; sourceTree = "<group>"; };
-		3A357A77224C1E9F0099EE51 /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
-		3A357A79224C1EDC0099EE51 /* CurrentTimeLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentTimeLine.swift; sourceTree = "<group>"; };
-		3A357A7B224C1F050099EE51 /* CurrentTimeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentTimeCoordinator.swift; sourceTree = "<group>"; };
 		3A357A81224C1F900099EE51 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		3A357A85224C23FB0099EE51 /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
 		3A357A89224D9A3C0099EE51 /* HelperFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperFunctions.swift; sourceTree = "<group>"; };
 		3A357A8D224DB48E0099EE51 /* StickersStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickersStack.swift; sourceTree = "<group>"; };
 		3A357A91224EF1080099EE51 /* TransformView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformView.swift; sourceTree = "<group>"; };
-		3A357A93224EF9200099EE51 /* GestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureView.swift; sourceTree = "<group>"; };
 		3A357A95224EFADE0099EE51 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		3A5605472273934900230AFB /* TMDBServiceHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBServiceHandler.swift; sourceTree = "<group>"; };
 		3A560549227393BE00230AFB /* TMDBServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBServiceTest.swift; sourceTree = "<group>"; };
@@ -91,6 +76,7 @@
 		3A560555227506FB00230AFB /* RealmManagerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManagerTest.swift; sourceTree = "<group>"; };
 		3A5605572275073D00230AFB /* TMDBMovieSample.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = TMDBMovieSample.json; sourceTree = "<group>"; };
 		3AD5D44D227AADEC0045ABD5 /* Credentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
+		3AD5D44F227BF37C0045ABD5 /* AnimationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationHelper.swift; sourceTree = "<group>"; };
 		3AE209AC227A51E900940B8B /* ElementsPool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementsPool.swift; sourceTree = "<group>"; };
 		3AE209AE227A700E00940B8B /* MovieContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieContentView.swift; sourceTree = "<group>"; };
 		3AE209B0227A702700940B8B /* MovieContentView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieContentView.xib; sourceTree = "<group>"; };
@@ -191,10 +177,6 @@
 			isa = PBXGroup;
 			children = (
 				3A357A85224C23FB0099EE51 /* MainView.xib */,
-				3A357A80224C1F620099EE51 /* StikersStack */,
-				3A357A7F224C1F560099EE51 /* Buttons */,
-				3A357A7E224C1F420099EE51 /* Tasks */,
-				3A357A7D224C1F140099EE51 /* CurrentTimeIndicators */,
 				3AE209B2227A703100940B8B /* MovieContentView */,
 			);
 			path = Views;
@@ -203,6 +185,7 @@
 		3A357A67224A860F0099EE51 /* VCs */ = {
 			isa = PBXGroup;
 			children = (
+				3A357A80224C1F620099EE51 /* StikersStack */,
 				3A2B20C922735085002C5971 /* Main */,
 				3A2B20C822735065002C5971 /* Network */,
 				3A5605522275038D00230AFB /* DB */,
@@ -225,36 +208,9 @@
 				3A357A89224D9A3C0099EE51 /* HelperFunctions.swift */,
 				3A357A95224EFADE0099EE51 /* Constants.swift */,
 				3AD5D44D227AADEC0045ABD5 /* Credentials.swift */,
+				3AD5D44F227BF37C0045ABD5 /* AnimationHelper.swift */,
 			);
 			path = Utilities;
-			sourceTree = "<group>";
-		};
-		3A357A7D224C1F140099EE51 /* CurrentTimeIndicators */ = {
-			isa = PBXGroup;
-			children = (
-				3A357A75224C1E8E0099EE51 /* CurrentTimeLabel.swift */,
-				3A357A79224C1EDC0099EE51 /* CurrentTimeLine.swift */,
-				3A357A7B224C1F050099EE51 /* CurrentTimeCoordinator.swift */,
-			);
-			path = CurrentTimeIndicators;
-			sourceTree = "<group>";
-		};
-		3A357A7E224C1F420099EE51 /* Tasks */ = {
-			isa = PBXGroup;
-			children = (
-				3A357A73224C1E780099EE51 /* TaskTable.swift */,
-				3A357A77224C1E9F0099EE51 /* TaskCell.swift */,
-			);
-			path = Tasks;
-			sourceTree = "<group>";
-		};
-		3A357A7F224C1F560099EE51 /* Buttons */ = {
-			isa = PBXGroup;
-			children = (
-				3A357A6F224C1E5D0099EE51 /* TrackButton.swift */,
-				3A357A71224C1E690099EE51 /* CreateButton.swift */,
-			);
-			path = Buttons;
 			sourceTree = "<group>";
 		};
 		3A357A80224C1F620099EE51 /* StikersStack */ = {
@@ -262,7 +218,6 @@
 			children = (
 				3A357A8D224DB48E0099EE51 /* StickersStack.swift */,
 				3A357A6B224C1DA60099EE51 /* Sticker.swift */,
-				3A357A93224EF9200099EE51 /* GestureView.swift */,
 				3A357A91224EF1080099EE51 /* TransformView.swift */,
 			);
 			path = StikersStack;
@@ -487,27 +442,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A357A94224EF9200099EE51 /* GestureView.swift in Sources */,
+				3AD5D450227BF37C0045ABD5 /* AnimationHelper.swift in Sources */,
 				3A2B20CB227350A8002C5971 /* WebServiceHandler.swift in Sources */,
 				3A357A47224A80F40099EE51 /* AppDelegate.swift in Sources */,
-				3A357A72224C1E690099EE51 /* CreateButton.swift in Sources */,
 				3A560554227503BC00230AFB /* RealmManager.swift in Sources */,
-				3A357A70224C1E5D0099EE51 /* TrackButton.swift in Sources */,
 				3A5605482273934900230AFB /* TMDBServiceHandler.swift in Sources */,
 				3A357A8E224DB48E0099EE51 /* StickersStack.swift in Sources */,
-				3A357A7A224C1EDC0099EE51 /* CurrentTimeLine.swift in Sources */,
 				3A357A82224C1F900099EE51 /* MainVC.swift in Sources */,
 				3A56055122739C7D00230AFB /* AMCServiceHandler.swift in Sources */,
 				3A357A8A224D9A3C0099EE51 /* HelperFunctions.swift in Sources */,
 				3A357A92224EF1080099EE51 /* TransformView.swift in Sources */,
 				3A56054D227394B900230AFB /* TMDBMovie.swift in Sources */,
-				3A357A76224C1E8E0099EE51 /* CurrentTimeLabel.swift in Sources */,
-				3A357A78224C1E9F0099EE51 /* TaskCell.swift in Sources */,
 				3AD5D44E227AADEC0045ABD5 /* Credentials.swift in Sources */,
 				3AE209AF227A700E00940B8B /* MovieContentView.swift in Sources */,
 				3AE209AD227A51E900940B8B /* ElementsPool.swift in Sources */,
-				3A357A74224C1E780099EE51 /* TaskTable.swift in Sources */,
-				3A357A7C224C1F050099EE51 /* CurrentTimeCoordinator.swift in Sources */,
 				3A357A6C224C1DA60099EE51 /* Sticker.swift in Sources */,
 				3A357A96224EFADE0099EE51 /* Constants.swift in Sources */,
 			);
