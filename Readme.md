@@ -16,6 +16,7 @@ Sticker rendering poster
 StickersDeck delegate design  
 Sticker reuse mechanism  
 Sticker can be swipe to side  
+Image resizing + Image in disk storage
 Sticker can be expand to full screen by tapping  
 Expanding animation should be like a enlarging square  
 
@@ -23,6 +24,7 @@ Expanding animation should be like a enlarging square
 More data integration
 
 ## Stories:
+Load more movies to cache, so user will not run out of stickers
 Local to/from Remote data update logic  
 Local image caching managment  
 Remove cached images feature  
