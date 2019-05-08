@@ -33,6 +33,7 @@
 		3AE209AD227A51E900940B8B /* ElementsPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE209AC227A51E900940B8B /* ElementsPool.swift */; };
 		3AE209AF227A700E00940B8B /* MovieContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE209AE227A700E00940B8B /* MovieContentView.swift */; };
 		3AE209B1227A702700940B8B /* MovieContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AE209B0227A702700940B8B /* MovieContentView.xib */; };
+		3AFB075322812E0300455E92 /* ImageHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFB075222812E0300455E92 /* ImageHelpers.swift */; };
 		8141DB0DDCFE6559E832D0AE /* Pods_com_MingSun_SecretoryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4267A244B2EBC1A6C88C9A58 /* Pods_com_MingSun_SecretoryTests.framework */; };
 		8621E99286DB51C317FFD6DD /* Pods_com_MingSun_Secretory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 205A8D6BE1520937F40B8E75 /* Pods_com_MingSun_Secretory.framework */; };
 /* End PBXBuildFile section */
@@ -80,6 +81,7 @@
 		3AE209AC227A51E900940B8B /* ElementsPool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementsPool.swift; sourceTree = "<group>"; };
 		3AE209AE227A700E00940B8B /* MovieContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieContentView.swift; sourceTree = "<group>"; };
 		3AE209B0227A702700940B8B /* MovieContentView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieContentView.xib; sourceTree = "<group>"; };
+		3AFB075222812E0300455E92 /* ImageHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageHelpers.swift; sourceTree = "<group>"; };
 		4267A244B2EBC1A6C88C9A58 /* Pods_com_MingSun_SecretoryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_com_MingSun_SecretoryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AD94A876E10EE81ABA7026D /* Pods-com.MingSun.SecretoryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-com.MingSun.SecretoryTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-com.MingSun.SecretoryTests/Pods-com.MingSun.SecretoryTests.release.xcconfig"; sourceTree = "<group>"; };
 		ABFD78CA7A6981F0940CDC6E /* Pods-com.MingSun.Secretory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-com.MingSun.Secretory.debug.xcconfig"; path = "Pods/Target Support Files/Pods-com.MingSun.Secretory/Pods-com.MingSun.Secretory.debug.xcconfig"; sourceTree = "<group>"; };
@@ -209,6 +211,7 @@
 				3A357A95224EFADE0099EE51 /* Constants.swift */,
 				3AD5D44D227AADEC0045ABD5 /* Credentials.swift */,
 				3AD5D44F227BF37C0045ABD5 /* AnimationHelper.swift */,
+				3AFB075222812E0300455E92 /* ImageHelpers.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -451,6 +454,7 @@
 				3A357A82224C1F900099EE51 /* MainVC.swift in Sources */,
 				3A56055122739C7D00230AFB /* AMCServiceHandler.swift in Sources */,
 				3A357A8A224D9A3C0099EE51 /* HelperFunctions.swift in Sources */,
+				3AFB075322812E0300455E92 /* ImageHelpers.swift in Sources */,
 				3A357A92224EF1080099EE51 /* TransformView.swift in Sources */,
 				3A56054D227394B900230AFB /* TMDBMovie.swift in Sources */,
 				3AD5D44E227AADEC0045ABD5 /* Credentials.swift in Sources */,
