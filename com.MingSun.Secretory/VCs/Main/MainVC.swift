@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import UI_StickersStack
 
 class MainVC: UIViewController {
 	@IBOutlet weak var stickersStack: StickersStack!
