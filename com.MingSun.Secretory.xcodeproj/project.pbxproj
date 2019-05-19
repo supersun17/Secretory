@@ -25,8 +25,6 @@
 		3A560554227503BC00230AFB /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A560553227503BC00230AFB /* RealmManager.swift */; };
 		3A560556227506FB00230AFB /* RealmManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A560555227506FB00230AFB /* RealmManagerTest.swift */; };
 		3A5605582275073D00230AFB /* TMDBMovieSample.json in Resources */ = {isa = PBXBuildFile; fileRef = 3A5605572275073D00230AFB /* TMDBMovieSample.json */; };
-		3A6CB3CD2289026D00415943 /* UI_StickersStack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A6CB3CC2289025D00415943 /* UI_StickersStack.framework */; };
-		3A6CB3CE2289026D00415943 /* UI_StickersStack.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3A6CB3CC2289025D00415943 /* UI_StickersStack.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3AD5D44E227AADEC0045ABD5 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD5D44D227AADEC0045ABD5 /* Credentials.swift */; };
 		3AD5D450227BF37C0045ABD5 /* AnimationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD5D44F227BF37C0045ABD5 /* AnimationHelper.swift */; };
 		3AE209AD227A51E900940B8B /* ElementsPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE209AC227A51E900940B8B /* ElementsPool.swift */; };
@@ -44,20 +42,6 @@
 			remoteGlobalIDString = 3A357A42224A80F40099EE51;
 			remoteInfo = com.MingSun.Secretory;
 		};
-		3A6CB3CB2289025D00415943 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3A6CB3C72289025C00415943 /* Frameworks.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 3A6CB3B42289006900415943;
-			remoteInfo = "UI-StickersStack";
-		};
-		3A6CB3CF2289026D00415943 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3A6CB3C72289025C00415943 /* Frameworks.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 3A6CB3B32289006900415943;
-			remoteInfo = "UI-StickersStack";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -67,7 +51,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				3A6CB3CE2289026D00415943 /* UI_StickersStack.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -99,7 +82,6 @@
 		3A560553227503BC00230AFB /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
 		3A560555227506FB00230AFB /* RealmManagerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManagerTest.swift; sourceTree = "<group>"; };
 		3A5605572275073D00230AFB /* TMDBMovieSample.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = TMDBMovieSample.json; sourceTree = "<group>"; };
-		3A6CB3C72289025C00415943 /* Frameworks.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Frameworks.xcodeproj; path = ../Frameworks/Frameworks.xcodeproj; sourceTree = "<group>"; };
 		3AD5D44D227AADEC0045ABD5 /* Credentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
 		3AD5D44F227BF37C0045ABD5 /* AnimationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationHelper.swift; sourceTree = "<group>"; };
 		3AE209AC227A51E900940B8B /* ElementsPool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementsPool.swift; sourceTree = "<group>"; };
@@ -117,7 +99,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8621E99286DB51C317FFD6DD /* Pods_com_MingSun_Secretory.framework in Frameworks */,
-				3A6CB3CD2289026D00415943 /* UI_StickersStack.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,7 +134,6 @@
 		3A357A3A224A80F40099EE51 = {
 			isa = PBXGroup;
 			children = (
-				3A6CB3C72289025C00415943 /* Frameworks.xcodeproj */,
 				3A2B20CC227350C8002C5971 /* Podfile */,
 				3A2B20C622734413002C5971 /* Readme.md */,
 				3A357A45224A80F40099EE51 /* com.MingSun.Secretory */,
@@ -247,14 +227,6 @@
 			path = DB;
 			sourceTree = "<group>";
 		};
-		3A6CB3C82289025C00415943 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				3A6CB3CC2289025D00415943 /* UI_StickersStack.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		3AE209B2227A703100940B8B /* MovieContentView */ = {
 			isa = PBXGroup;
 			children = (
@@ -301,7 +273,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				3A6CB3D02289026D00415943 /* PBXTargetDependency */,
 			);
 			name = com.MingSun.Secretory;
 			productName = com.MingSun.Secretory;
@@ -356,12 +327,6 @@
 			mainGroup = 3A357A3A224A80F40099EE51;
 			productRefGroup = 3A357A44224A80F40099EE51 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 3A6CB3C82289025C00415943 /* Products */;
-					ProjectRef = 3A6CB3C72289025C00415943 /* Frameworks.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				3A357A42224A80F40099EE51 /* com.MingSun.Secretory */,
@@ -369,16 +334,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		3A6CB3CC2289025D00415943 /* UI_StickersStack.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = UI_StickersStack.framework;
-			remoteRef = 3A6CB3CB2289025D00415943 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		3A357A41224A80F40099EE51 /* Resources */ = {
@@ -440,6 +395,7 @@
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/UI_StickersStack/UI_StickersStack.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
@@ -449,6 +405,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UI_StickersStack.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -517,11 +474,6 @@
 			isa = PBXTargetDependency;
 			target = 3A357A42224A80F40099EE51 /* com.MingSun.Secretory */;
 			targetProxy = 3A357A58224A80F60099EE51 /* PBXContainerItemProxy */;
-		};
-		3A6CB3D02289026D00415943 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "UI-StickersStack";
-			targetProxy = 3A6CB3CF2289026D00415943 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

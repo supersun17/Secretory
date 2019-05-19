@@ -1,11 +1,15 @@
 # Uncomment the next line to define a global platform for your project
 platform :ios, '10.0'
 
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/supersun17/Cocoapods_specs.git'
+
 def available_pods
 	# Pods for com.MingSun.Secretory
 	pod 'RealmSwift', '~> 3.10'
 	pod 'ObjectMapper', '~> 3.3'
 	pod 'Alamofire'
+	pod 'UI_StickersStack'
 end
 
 target 'com.MingSun.Secretory' do
