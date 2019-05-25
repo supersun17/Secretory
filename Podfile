@@ -9,7 +9,7 @@ def available_pods
 	pod 'RealmSwift', '~> 3.10'
 	pod 'ObjectMapper', '~> 3.3'
 	pod 'Alamofire'
-	pod 'UI_StickersStack'
+	pod 'UI_StickersStack', '~> 0.0.3'
 end
 
 target 'com.MingSun.Secretory' do
