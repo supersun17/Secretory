@@ -30,8 +30,8 @@
 		3AE209AD227A51E900940B8B /* ElementsPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE209AC227A51E900940B8B /* ElementsPool.swift */; };
 		3AE209AF227A700E00940B8B /* MovieContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE209AE227A700E00940B8B /* MovieContentView.swift */; };
 		3AE209B1227A702700940B8B /* MovieContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AE209B0227A702700940B8B /* MovieContentView.xib */; };
-		8141DB0DDCFE6559E832D0AE /* Pods_com_MingSun_SecretoryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4267A244B2EBC1A6C88C9A58 /* Pods_com_MingSun_SecretoryTests.framework */; };
-		8621E99286DB51C317FFD6DD /* Pods_com_MingSun_Secretory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 205A8D6BE1520937F40B8E75 /* Pods_com_MingSun_Secretory.framework */; };
+		9A3FCA12A27E91ABD87221C4 /* Pods_com_MingSun_SecretoryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF3D67517247E3506F02DC9A /* Pods_com_MingSun_SecretoryTests.framework */; };
+		E308541F727D21FCEB700D98 /* Pods_com_MingSun_Secretory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68917CE9F0C124DF1F89D0ED /* Pods_com_MingSun_Secretory.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,8 +58,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		08CB3FD45E2A0A347808038B /* Pods-com.MingSun.Secretory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-com.MingSun.Secretory.release.xcconfig"; path = "Pods/Target Support Files/Pods-com.MingSun.Secretory/Pods-com.MingSun.Secretory.release.xcconfig"; sourceTree = "<group>"; };
-		205A8D6BE1520937F40B8E75 /* Pods_com_MingSun_Secretory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_com_MingSun_Secretory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A2B20C622734413002C5971 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		3A2B20CA227350A8002C5971 /* WebServiceHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceHandler.swift; sourceTree = "<group>"; };
 		3A2B20CC227350C8002C5971 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -87,10 +85,12 @@
 		3AE209AC227A51E900940B8B /* ElementsPool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementsPool.swift; sourceTree = "<group>"; };
 		3AE209AE227A700E00940B8B /* MovieContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieContentView.swift; sourceTree = "<group>"; };
 		3AE209B0227A702700940B8B /* MovieContentView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieContentView.xib; sourceTree = "<group>"; };
-		4267A244B2EBC1A6C88C9A58 /* Pods_com_MingSun_SecretoryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_com_MingSun_SecretoryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7AD94A876E10EE81ABA7026D /* Pods-com.MingSun.SecretoryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-com.MingSun.SecretoryTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-com.MingSun.SecretoryTests/Pods-com.MingSun.SecretoryTests.release.xcconfig"; sourceTree = "<group>"; };
-		ABFD78CA7A6981F0940CDC6E /* Pods-com.MingSun.Secretory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-com.MingSun.Secretory.debug.xcconfig"; path = "Pods/Target Support Files/Pods-com.MingSun.Secretory/Pods-com.MingSun.Secretory.debug.xcconfig"; sourceTree = "<group>"; };
-		ADF1015C25C0EDB32A3849C2 /* Pods-com.MingSun.SecretoryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-com.MingSun.SecretoryTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-com.MingSun.SecretoryTests/Pods-com.MingSun.SecretoryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		68917CE9F0C124DF1F89D0ED /* Pods_com_MingSun_Secretory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_com_MingSun_Secretory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		773E1C90F5B9D03B835FA49E /* Pods-com.MingSun.SecretoryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-com.MingSun.SecretoryTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-com.MingSun.SecretoryTests/Pods-com.MingSun.SecretoryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		97B30A67566C140983D52440 /* Pods-com.MingSun.Secretory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-com.MingSun.Secretory.release.xcconfig"; path = "Pods/Target Support Files/Pods-com.MingSun.Secretory/Pods-com.MingSun.Secretory.release.xcconfig"; sourceTree = "<group>"; };
+		BDBB4759E8AC4F9102CBBF37 /* Pods-com.MingSun.Secretory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-com.MingSun.Secretory.debug.xcconfig"; path = "Pods/Target Support Files/Pods-com.MingSun.Secretory/Pods-com.MingSun.Secretory.debug.xcconfig"; sourceTree = "<group>"; };
+		CDA51E8F09A2371D150B0BB0 /* Pods-com.MingSun.SecretoryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-com.MingSun.SecretoryTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-com.MingSun.SecretoryTests/Pods-com.MingSun.SecretoryTests.release.xcconfig"; sourceTree = "<group>"; };
+		DF3D67517247E3506F02DC9A /* Pods_com_MingSun_SecretoryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_com_MingSun_SecretoryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8621E99286DB51C317FFD6DD /* Pods_com_MingSun_Secretory.framework in Frameworks */,
+				E308541F727D21FCEB700D98 /* Pods_com_MingSun_Secretory.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,7 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8141DB0DDCFE6559E832D0AE /* Pods_com_MingSun_SecretoryTests.framework in Frameworks */,
+				9A3FCA12A27E91ABD87221C4 /* Pods_com_MingSun_SecretoryTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +139,8 @@
 				3A357A45224A80F40099EE51 /* com.MingSun.Secretory */,
 				3A357A5A224A80F60099EE51 /* com.MingSun.SecretoryTests */,
 				3A357A44224A80F40099EE51 /* Products */,
-				E76549C46E72217805D12E3B /* Pods */,
-				E81B97F69BA02F13E4CEBE3E /* Frameworks */,
+				B9EDB2ADCCE903AC045BAD7B /* Pods */,
+				B4C7236D2D97D36C8E4F5458 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -236,24 +236,24 @@
 			path = MovieContentView;
 			sourceTree = "<group>";
 		};
-		E76549C46E72217805D12E3B /* Pods */ = {
+		B4C7236D2D97D36C8E4F5458 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				ABFD78CA7A6981F0940CDC6E /* Pods-com.MingSun.Secretory.debug.xcconfig */,
-				08CB3FD45E2A0A347808038B /* Pods-com.MingSun.Secretory.release.xcconfig */,
-				ADF1015C25C0EDB32A3849C2 /* Pods-com.MingSun.SecretoryTests.debug.xcconfig */,
-				7AD94A876E10EE81ABA7026D /* Pods-com.MingSun.SecretoryTests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		E81B97F69BA02F13E4CEBE3E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				205A8D6BE1520937F40B8E75 /* Pods_com_MingSun_Secretory.framework */,
-				4267A244B2EBC1A6C88C9A58 /* Pods_com_MingSun_SecretoryTests.framework */,
+				68917CE9F0C124DF1F89D0ED /* Pods_com_MingSun_Secretory.framework */,
+				DF3D67517247E3506F02DC9A /* Pods_com_MingSun_SecretoryTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9EDB2ADCCE903AC045BAD7B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BDBB4759E8AC4F9102CBBF37 /* Pods-com.MingSun.Secretory.debug.xcconfig */,
+				97B30A67566C140983D52440 /* Pods-com.MingSun.Secretory.release.xcconfig */,
+				773E1C90F5B9D03B835FA49E /* Pods-com.MingSun.SecretoryTests.debug.xcconfig */,
+				CDA51E8F09A2371D150B0BB0 /* Pods-com.MingSun.SecretoryTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,12 +263,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3A357A60224A80F60099EE51 /* Build configuration list for PBXNativeTarget "com.MingSun.Secretory" */;
 			buildPhases = (
-				78DA2F289639E8FF096AC0A4 /* [CP] Check Pods Manifest.lock */,
+				5DBC06482D2F713B08305F55 /* [CP] Check Pods Manifest.lock */,
 				3A357A3F224A80F40099EE51 /* Sources */,
 				3A357A40224A80F40099EE51 /* Frameworks */,
 				3A357A41224A80F40099EE51 /* Resources */,
-				B8D4A858325B364D6E514BC2 /* [CP] Embed Pods Frameworks */,
 				3A6CB3D12289026D00415943 /* Embed Frameworks */,
+				80EBEA3B1EEA8164A1E5FBAC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -283,7 +283,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3A357A63224A80F60099EE51 /* Build configuration list for PBXNativeTarget "com.MingSun.SecretoryTests" */;
 			buildPhases = (
-				C79FEB7696689B537C425BAA /* [CP] Check Pods Manifest.lock */,
+				281B3F4D36B4E88494BDDB70 /* [CP] Check Pods Manifest.lock */,
 				3A357A53224A80F60099EE51 /* Sources */,
 				3A357A54224A80F60099EE51 /* Frameworks */,
 				3A357A55224A80F60099EE51 /* Resources */,
@@ -360,7 +360,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		78DA2F289639E8FF096AC0A4 /* [CP] Check Pods Manifest.lock */ = {
+		281B3F4D36B4E88494BDDB70 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-com.MingSun.SecretoryTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DBC06482D2F713B08305F55 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -382,7 +404,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B8D4A858325B364D6E514BC2 /* [CP] Embed Pods Frameworks */ = {
+		80EBEA3B1EEA8164A1E5FBAC /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -410,28 +432,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-com.MingSun.Secretory/Pods-com.MingSun.Secretory-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C79FEB7696689B537C425BAA /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-com.MingSun.SecretoryTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -607,7 +607,7 @@
 		};
 		3A357A61224A80F60099EE51 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ABFD78CA7A6981F0940CDC6E /* Pods-com.MingSun.Secretory.debug.xcconfig */;
+			baseConfigurationReference = BDBB4759E8AC4F9102CBBF37 /* Pods-com.MingSun.Secretory.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -629,7 +629,7 @@
 		};
 		3A357A62224A80F60099EE51 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 08CB3FD45E2A0A347808038B /* Pods-com.MingSun.Secretory.release.xcconfig */;
+			baseConfigurationReference = 97B30A67566C140983D52440 /* Pods-com.MingSun.Secretory.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -651,7 +651,7 @@
 		};
 		3A357A64224A80F60099EE51 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ADF1015C25C0EDB32A3849C2 /* Pods-com.MingSun.SecretoryTests.debug.xcconfig */;
+			baseConfigurationReference = 773E1C90F5B9D03B835FA49E /* Pods-com.MingSun.SecretoryTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -673,7 +673,7 @@
 		};
 		3A357A65224A80F60099EE51 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AD94A876E10EE81ABA7026D /* Pods-com.MingSun.SecretoryTests.release.xcconfig */;
+			baseConfigurationReference = CDA51E8F09A2371D150B0BB0 /* Pods-com.MingSun.SecretoryTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";

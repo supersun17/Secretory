@@ -1,18 +1,18 @@
 PODS:
-  - Alamofire (4.8.1)
+  - Alamofire (4.8.2)
   - ObjectMapper (3.4.2)
-  - Realm (3.13.1):
-    - Realm/Headers (= 3.13.1)
-  - Realm/Headers (3.13.1)
-  - RealmSwift (3.13.1):
-    - Realm (= 3.13.1)
-  - UI_StickersStack (0.0.3)
+  - Realm (3.15.0):
+    - Realm/Headers (= 3.15.0)
+  - Realm/Headers (3.15.0)
+  - RealmSwift (3.15.0):
+    - Realm (= 3.15.0)
+  - UI_StickersStack (0.0.4)
 
 DEPENDENCIES:
   - Alamofire
   - ObjectMapper (~> 3.3)
   - RealmSwift (~> 3.10)
-  - UI_StickersStack (~> 0.0.3)
+  - UI_StickersStack (~> 0.0.4)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -24,12 +24,12 @@ SPEC REPOS:
     - UI_StickersStack
 
 SPEC CHECKSUMS:
-  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
   ObjectMapper: 0d4402610f4e468903ae64629eec4784531e5c51
-  Realm: 50071da38fe079e0735e47c9f2eae738c68c5996
-  RealmSwift: 8a1e6a02b7a08cd17a31e3115143fb69fe5f3fb9
-  UI_StickersStack: 8398a00cecb358ef38e0a56bee07b7fae0e6d21a
+  Realm: 9b834e1be6062f544805252c812348872dc5d4ed
+  RealmSwift: 8a41886f8ab6efef9eb8df97de2f2bb911561a79
+  UI_StickersStack: f428fc22d31f76f84d3889aa2834df72802f9ebc
 
-PODFILE CHECKSUM: d09a9b5bfb400724ea46370bf49474ee17830cc2
+PODFILE CHECKSUM: 5e8a642f6c3c3762829485bb940432674a441ea5
 
 COCOAPODS: 1.5.3
