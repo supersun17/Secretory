@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -25,11 +25,11 @@
 		3A560554227503BC00230AFB /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A560553227503BC00230AFB /* RealmManager.swift */; };
 		3A560556227506FB00230AFB /* RealmManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A560555227506FB00230AFB /* RealmManagerTest.swift */; };
 		3A5605582275073D00230AFB /* TMDBMovieSample.json in Resources */ = {isa = PBXBuildFile; fileRef = 3A5605572275073D00230AFB /* TMDBMovieSample.json */; };
-		3AD5D44E227AADEC0045ABD5 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD5D44D227AADEC0045ABD5 /* Credentials.swift */; };
 		3AD5D450227BF37C0045ABD5 /* AnimationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD5D44F227BF37C0045ABD5 /* AnimationHelper.swift */; };
 		3AE209AD227A51E900940B8B /* ElementsPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE209AC227A51E900940B8B /* ElementsPool.swift */; };
 		3AE209AF227A700E00940B8B /* MovieContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE209AE227A700E00940B8B /* MovieContentView.swift */; };
 		3AE209B1227A702700940B8B /* MovieContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AE209B0227A702700940B8B /* MovieContentView.xib */; };
+		6E60AFA322A88A700053D0C7 /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E60AFA222A88A700053D0C7 /* Credentials.swift */; };
 		9A3FCA12A27E91ABD87221C4 /* Pods_com_MingSun_SecretoryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF3D67517247E3506F02DC9A /* Pods_com_MingSun_SecretoryTests.framework */; };
 		E308541F727D21FCEB700D98 /* Pods_com_MingSun_Secretory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68917CE9F0C124DF1F89D0ED /* Pods_com_MingSun_Secretory.framework */; };
 /* End PBXBuildFile section */
@@ -80,12 +80,12 @@
 		3A560553227503BC00230AFB /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
 		3A560555227506FB00230AFB /* RealmManagerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManagerTest.swift; sourceTree = "<group>"; };
 		3A5605572275073D00230AFB /* TMDBMovieSample.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = TMDBMovieSample.json; sourceTree = "<group>"; };
-		3AD5D44D227AADEC0045ABD5 /* Credentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
 		3AD5D44F227BF37C0045ABD5 /* AnimationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationHelper.swift; sourceTree = "<group>"; };
 		3AE209AC227A51E900940B8B /* ElementsPool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementsPool.swift; sourceTree = "<group>"; };
 		3AE209AE227A700E00940B8B /* MovieContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieContentView.swift; sourceTree = "<group>"; };
 		3AE209B0227A702700940B8B /* MovieContentView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieContentView.xib; sourceTree = "<group>"; };
 		68917CE9F0C124DF1F89D0ED /* Pods_com_MingSun_Secretory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_com_MingSun_Secretory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E60AFA222A88A700053D0C7 /* Credentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
 		773E1C90F5B9D03B835FA49E /* Pods-com.MingSun.SecretoryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-com.MingSun.SecretoryTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-com.MingSun.SecretoryTests/Pods-com.MingSun.SecretoryTests.debug.xcconfig"; sourceTree = "<group>"; };
 		97B30A67566C140983D52440 /* Pods-com.MingSun.Secretory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-com.MingSun.Secretory.release.xcconfig"; path = "Pods/Target Support Files/Pods-com.MingSun.Secretory/Pods-com.MingSun.Secretory.release.xcconfig"; sourceTree = "<group>"; };
 		BDBB4759E8AC4F9102CBBF37 /* Pods-com.MingSun.Secretory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-com.MingSun.Secretory.debug.xcconfig"; path = "Pods/Target Support Files/Pods-com.MingSun.Secretory/Pods-com.MingSun.Secretory.debug.xcconfig"; sourceTree = "<group>"; };
@@ -213,8 +213,8 @@
 				3AE209AC227A51E900940B8B /* ElementsPool.swift */,
 				3A357A89224D9A3C0099EE51 /* HelperFunctions.swift */,
 				3A357A95224EFADE0099EE51 /* Constants.swift */,
-				3AD5D44D227AADEC0045ABD5 /* Credentials.swift */,
 				3AD5D44F227BF37C0045ABD5 /* AnimationHelper.swift */,
+				6E60AFA222A88A700053D0C7 /* Credentials.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -410,28 +410,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-com.MingSun.Secretory/Pods-com.MingSun.Secretory-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
-				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
-				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
-				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/UI_StickersStack/UI_StickersStack.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-com.MingSun.Secretory/Pods-com.MingSun.Secretory-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UI_StickersStack.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-com.MingSun.Secretory/Pods-com.MingSun.Secretory-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-com.MingSun.Secretory/Pods-com.MingSun.Secretory-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-com.MingSun.Secretory/Pods-com.MingSun.Secretory-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -445,12 +432,12 @@
 				3A2B20CB227350A8002C5971 /* WebServiceHandler.swift in Sources */,
 				3A357A47224A80F40099EE51 /* AppDelegate.swift in Sources */,
 				3A560554227503BC00230AFB /* RealmManager.swift in Sources */,
+				6E60AFA322A88A700053D0C7 /* Credentials.swift in Sources */,
 				3A5605482273934900230AFB /* TMDBServiceHandler.swift in Sources */,
 				3A357A82224C1F900099EE51 /* MainVC.swift in Sources */,
 				3A56055122739C7D00230AFB /* AMCServiceHandler.swift in Sources */,
 				3A357A8A224D9A3C0099EE51 /* HelperFunctions.swift in Sources */,
 				3A56054D227394B900230AFB /* TMDBMovie.swift in Sources */,
-				3AD5D44E227AADEC0045ABD5 /* Credentials.swift in Sources */,
 				3AE209AF227A700E00940B8B /* MovieContentView.swift in Sources */,
 				3AE209AD227A51E900940B8B /* ElementsPool.swift in Sources */,
 				3A357A96224EFADE0099EE51 /* Constants.swift in Sources */,
@@ -621,7 +608,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.MingSun.Secretory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = Secretory.Dev;
+				PROVISIONING_PROFILE_SPECIFIER = "Mings WildCard PP.Dev";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -643,7 +630,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.MingSun.Secretory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = Secretory.Dev;
+				PROVISIONING_PROFILE_SPECIFIER = "Mings WildCard PP.Dev";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
